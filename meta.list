@@ -1,15 +1,17 @@
-- DOMAIN-SUFFIX,facebook.com
-- DOMAIN-SUFFIX,facebook.net
-- DOMAIN-SUFFIX,fbcdn.net
-- DOMAIN-SUFFIX,instagram.com
-- DOMAIN-SUFFIX,oculus.com
-- DOMAIN-SUFFIX,oculuscdn.com
-- DOMAIN-SUFFIX,meta.com
-- DOMAIN-KEYWORD,gateway.facebook
-- DOMAIN-KEYWORD,graph.facebook
-- DOMAIN-KEYWORD,instagram
-- DOMAIN-KEYWORD,oculuscdn
-- DOMAIN-KEYWORD,mqtt-mini.facebook
-- DOMAIN-KEYWORD,edge-mqtt.facebook
-- DOMAIN-KEYWORD,test-gateway.instagram
-- DOMAIN-KEYWORD,scontent-
+payload:
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,facebook.net
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,oculus.com
+  - DOMAIN-SUFFIX,oculuscdn.com
+  - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,meta.org
+  - DOMAIN-KEYWORD,gateway.facebook
+  - DOMAIN-KEYWORD,graph.facebook
+  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-KEYWORD,oculuscdn
+  - DOMAIN-KEYWORD,mqtt-mini.facebook
+  - DOMAIN-KEYWORD,edge-mqtt.facebook
+  - DOMAIN-KEYWORD,test-gateway.instagram
+  - DOMAIN-KEYWORD,scontent-
