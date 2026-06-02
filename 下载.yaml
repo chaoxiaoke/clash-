@@ -1,0 +1,37 @@
+payload:
+  - DOMAIN,file-variants.vrchat.cloud,📥 下载专用
+
+
+
+
+  - DOMAIN-KEYWORD,download,📥 下载专用
+  - DOMAIN-KEYWORD,dl.,📥 下载专用
+  - DOMAIN-KEYWORD,release,📥 下载专用
+  - DOMAIN-KEYWORD,files,📥 下载专用
+  - DOMAIN-KEYWORD,archive,📥 下载专用
+  - DOMAIN-KEYWORD,raw,📥 下载专用
+  - DOMAIN-KEYWORD,pkg,📥 下载专用
+  - DOMAIN-KEYWORD,pan,📥 下载专用
+  - DOMAIN-KEYWORD,cloud,📥 下载专用
+  - DOMAIN-KEYWORD,torrent,📥 下载专用
+  - DOMAIN-KEYWORD,cdn,📥 下载专用
+  - DOMAIN-KEYWORD,update,📥 下载专用
+
+  # 2. 主流下载/开源站点（精准域名后缀匹配）
+  - DOMAIN-SUFFIX,github.com,📥 下载专用  
+  - DOMAIN-SUFFIX,githubusercontent.com,📥 下载专用
+  - DOMAIN-SUFFIX,gitlab.com,📥 下载专用
+  - DOMAIN-SUFFIX,sourceforge.net,📥 下载专用
+  - DOMAIN-SUFFIX,bitbucket.org,📥 下载专用
+  - DOMAIN-SUFFIX,launchpad.net,📥 下载专用
+  - DOMAIN-SUFFIX,archive.org,📥 下载专用
+  - DOMAIN-SUFFIX,sourceforge.net,📥 下载专用
+  - DOMAIN-SUFFIX,mirrors.aliyun.com,📥 下载专用
+  - DOMAIN-SUFFIX,mirrors.tuna.tsinghua.edu.cn,📥 下载专用
+
+  # 3. BT/公网Tracker 规则集
+  - GEOSITE,category-public-tracker,📥 下载专用
+
+  # 4. 路由器本机下载命令（curl/wget，按需保留/删除）
+  - PROCESS-NAME,curl,📥 下载专用
+  - PROCESS-NAME,wget,📥 下载专用
