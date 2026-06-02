@@ -1,23 +1,24 @@
+payload:
 
-##########################
-##########################vrchat############################
-# 1. 核心域名规则（VRChat 主站/API/CDN）
-- DOMAIN,file-variants.vrchat.cloud,📥 下载专用
-- DOMAIN-SUFFIX,vrchat.cloud,🎮 vrchat,no-resolve
-- DOMAIN-SUFFIX,vrchat.com,🎮 vrchat,no-resolve
-- DOMAIN-SUFFIX,vrchatusercontent.com,🎮 vrchat,no-resolve
-# 2. 依赖服务域名（Unity/Oculus/统计/SDK）
-- DOMAIN-SUFFIX,oculus.com,🎮 vrchat,no-resolve
-- DOMAIN-SUFFIX,api.amplitude.com,🎮 vrchat,no-resolve
-- DOMAIN-SUFFIX,cloud.unity3d.com,🎮 vrchat,no-resolve
-- DOMAIN-SUFFIX,amplitude.com,🎮 vrchat,no-resolve
-- DOMAIN-SUFFIX,gaming-sdk.com,🎮 vrchat,no-resolve
-- DOMAIN-SUFFIX,unity3d.com,🎮 vrchat,no-resolve
+  ##########################
+  ##########################vrchat############################
+  # 1. 核心域名规则（VRChat 主站/API/CDN）
+  - DOMAIN,file-variants.vrchat.cloud,📥 下载专用
+  - DOMAIN-SUFFIX,vrchat.cloud,🎮 vrchat,no-resolve
+  - DOMAIN-SUFFIX,vrchat.com,🎮 vrchat,no-resolve
+  - DOMAIN-SUFFIX,vrchatusercontent.com,🎮 vrchat,no-resolve
+  # 2. 依赖服务域名（Unity/Oculus/统计/SDK）
+  - DOMAIN-SUFFIX,oculus.com,🎮 vrchat,no-resolve
+  - DOMAIN-SUFFIX,api.amplitude.com,🎮 vrchat,no-resolve
+  - DOMAIN-SUFFIX,cloud.unity3d.com,🎮 vrchat,no-resolve
+  - DOMAIN-SUFFIX,amplitude.com,🎮 vrchat,no-resolve
+  - DOMAIN-SUFFIX,gaming-sdk.com,🎮 vrchat,no-resolve
+  - DOMAIN-SUFFIX,unity3d.com,🎮 vrchat,no-resolve
 
-# 3. 全端口规则（覆盖 VRChat 联机/语音/P2P 所有端口）
-- DST-PORT,27001-27025,🎮 vrchat,no-resolve
-- DST-PORT,62121-62124,🎮 vrchat,no-resolve
-- DST-PORT,65064-65067,🎮 vrchat,no-resolve
-- DOMAIN-SUFFIX,photonengine.io,🎮 vrchat,no-resolve
-- DOMAIN-SUFFIX,photonengine.com,🎮 vrchat,no-resolve
+  # 3. 全端口规则（覆盖 VRChat 联机/语音/P2P 所有端口）
+  - DST-PORT,27001-27025,🎮 vrchat,no-resolve
+  - DST-PORT,62121-62124,🎮 vrchat,no-resolve
+  - DST-PORT,65064-65067,🎮 vrchat,no-resolve
+  - DOMAIN-SUFFIX,photonengine.io,🎮 vrchat,no-resolve
+  - DOMAIN-SUFFIX,photonengine.com,🎮 vrchat,no-resolve
 
