@@ -1,6 +1,7 @@
-- DST-PORT,61088,🎮 猎杀对决
-- DST-PORT,25424,🎮 猎杀对决
-- DOMAIN-SUFFIX,dropackuste.com,🎮 猎杀对决
-- DOMAIN-SUFFIX,huntshowdown.com,🎮 猎杀对决
-- IP-CIDR,64.131.95.0/24,🎮 猎杀对决
-- IP-CIDR,43.198.0.0/16,🎮 猎杀对决
+payload:
+  - DST-PORT,61088,🎮 猎杀对决
+  - DST-PORT,25424,🎮 猎杀对决
+  - DOMAIN-SUFFIX,dropackuste.com,🎮 猎杀对决
+  - DOMAIN-SUFFIX,huntshowdown.com,🎮 猎杀对决
+  - IP-CIDR,64.131.95.0/24,🎮 猎杀对决
+  - IP-CIDR,43.198.0.0/16,🎮 猎杀对决 
