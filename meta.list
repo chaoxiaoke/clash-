@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,oculus.com
   - DOMAIN-SUFFIX,oculuscdn.com
+  - DOMAIN-SUFFIX,meta.com
   - DOMAIN-KEYWORD,gateway.facebook
   - DOMAIN-KEYWORD,graph.facebook
   - DOMAIN-KEYWORD,instagram
@@ -13,4 +14,3 @@ payload:
   - DOMAIN-KEYWORD,edge-mqtt.facebook
   - DOMAIN-KEYWORD,test-gateway.instagram
   - DOMAIN-KEYWORD,scontent-
-  - DOMAIN-SUFFIX,www.meta.com
