@@ -3,7 +3,6 @@ payload:
   ##########################
   ##########################vrchat############################
   # 1. 核心域名规则（VRChat 主站/API/CDN）
-  - DOMAIN,file-variants.vrchat.cloud,📥 下载专用
   - DOMAIN-SUFFIX,vrchat.cloud,🎮 vrchat,no-resolve
   - DOMAIN-SUFFIX,vrchat.com,🎮 vrchat,no-resolve
   - DOMAIN-SUFFIX,vrchatusercontent.com,🎮 vrchat,no-resolve
