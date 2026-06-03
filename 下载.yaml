@@ -1,9 +1,6 @@
 payload:
+  # ==================== 原有规则保留 ====================
   - DOMAIN,file-variants.vrchat.cloud,📥 下载专用
-
-
-
-
   - DOMAIN-KEYWORD,download,📥 下载专用
   - DOMAIN-KEYWORD,dl.,📥 下载专用
   - DOMAIN-KEYWORD,release,📥 下载专用
@@ -17,21 +14,77 @@ payload:
   - DOMAIN-KEYWORD,cdn,📥 下载专用
   - DOMAIN-KEYWORD,update,📥 下载专用
 
-  # 2. 主流下载/开源站点（精准域名后缀匹配）
-  - DOMAIN-SUFFIX,github.com,📥 下载专用  
-  - DOMAIN-SUFFIX,githubusercontent.com,📥 下载专用
+  # 主流下载/开源站点
+  # - DOMAIN-SUFFIX,github.com,📥 下载专用
+  # - DOMAIN-SUFFIX,githubusercontent.com,📥 下载专用
   - DOMAIN-SUFFIX,gitlab.com,📥 下载专用
   - DOMAIN-SUFFIX,sourceforge.net,📥 下载专用
   - DOMAIN-SUFFIX,bitbucket.org,📥 下载专用
   - DOMAIN-SUFFIX,launchpad.net,📥 下载专用
   - DOMAIN-SUFFIX,archive.org,📥 下载专用
-  - DOMAIN-SUFFIX,sourceforge.net,📥 下载专用
   - DOMAIN-SUFFIX,mirrors.aliyun.com,📥 下载专用
   - DOMAIN-SUFFIX,mirrors.tuna.tsinghua.edu.cn,📥 下载专用
 
-  # 3. BT/公网Tracker 规则集
+  # BT/Tracker
   - GEOSITE,category-public-tracker,📥 下载专用
 
-  # 4. 路由器本机下载命令（curl/wget，按需保留/删除）
+  # 本机下载工具
   - PROCESS-NAME,curl,📥 下载专用
   - PROCESS-NAME,wget,📥 下载专用
+
+  # ==================== 新增：中国无服务器游戏下载规则 ====================
+
+  # Steam 下载与更新（国际服内容下载）
+  - DOMAIN-SUFFIX,steampowered.com,📥 下载专用
+  - DOMAIN-SUFFIX,steamcdn.com,📥 下载专用
+  - DOMAIN-SUFFIX,steamcontent.com,📥 下载专用
+  - DOMAIN-SUFFIX,steamserver.net,📥 下载专用
+  - DOMAIN-SUFFIX,cm.steampowered.com,📥 下载专用
+  - DOMAIN-KEYWORD,steamcdn,📥 下载专用
+
+  # Epic Games 下载
+  - DOMAIN-SUFFIX,epicgames.com,📥 下载专用
+  - DOMAIN-SUFFIX,epicgames.dev,📥 下载专用
+  - DOMAIN-SUFFIX,unrealengine.com,📥 下载专用
+  - DOMAIN-SUFFIX,download.epicgames.com,📥 下载专用
+
+  # Riot / Valorant / LOL 下载与更新
+  - DOMAIN-SUFFIX,riotgames.com,📥 下载专用
+  - DOMAIN-SUFFIX,riotservices.com,📥 下载专用
+  - DOMAIN-KEYWORD,riot,📥 下载专用
+
+  # Blizzard / Battle.net 下载
+  - DOMAIN-SUFFIX,battle.net,📥 下载专用
+  - DOMAIN-SUFFIX,blizzard.com,📥 下载专用
+  - DOMAIN-SUFFIX,blizzard.net,📥 下载专用
+
+  # EA / Origin / Apex 下载
+  - DOMAIN-SUFFIX,ea.com,📥 下载专用
+  - DOMAIN-SUFFIX,origin.com,📥 下载专用
+  - DOMAIN-SUFFIX,akamaihd.net,📥 下载专用   # EA 常用 CDN
+
+  # Ubisoft 下载
+  - DOMAIN-SUFFIX,ubisoft.com,📥 下载专用
+  - DOMAIN-SUFFIX,uplay.com,📥 下载专用
+
+  # Rockstar 下载（GTA、RDR2 等）
+  - DOMAIN-SUFFIX,rockstargames.com,📥 下载专用
+
+  # HoYoverse / 米哈游国际服下载（原神、星穹铁道等全球版）
+  - DOMAIN-SUFFIX,hoyoverse.com,📥 下载专用
+  - DOMAIN-SUFFIX,mihoyo.com,📥 下载专用
+  - DOMAIN-SUFFIX,starrail.com,📥 下载专用
+
+  # Roblox 下载
+  - DOMAIN-SUFFIX,roblox.com,📥 下载专用
+  - DOMAIN-SUFFIX,rbxcdn.com,📥 下载专用
+
+  # Nintendo / Switch 下载
+  - DOMAIN-SUFFIX,nintendo.com,📥 下载专用
+  - DOMAIN-SUFFIX,nintendoswitch.com,📥 下载专用
+
+  # 其他常见游戏下载 CDN / 更新
+  - DOMAIN-KEYWORD,dl.,📥 下载专用
+  - DOMAIN-KEYWORD,download,📥 下载专用
+  - DOMAIN-KEYWORD,update,📥 下载专用
+  - DOMAIN-KEYWORD,cdn,📥 下载专用
