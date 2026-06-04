@@ -4,6 +4,7 @@ payload:
   - DOMAIN-KEYWORD,download,📥 下载专用
   - DOMAIN-KEYWORD,dl.,📥 下载专用
   - DOMAIN-KEYWORD,release,📥 下载专用
+  - DOMAIN-KEYWORD,file,📥 下载专用
   - DOMAIN-KEYWORD,files,📥 下载专用
   - DOMAIN-KEYWORD,archive,📥 下载专用
   - DOMAIN-KEYWORD,raw,📥 下载专用
