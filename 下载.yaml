@@ -1,6 +1,7 @@
 payload:
   # ==================== 原有规则保留 ====================
-  - DOMAIN,file-variants.vrchat.cloud,📥 下载专用
+  - DOMAIN-REGEX,^file-variants\.vrchat\.cloud$,📥 下载专用
+
   - DOMAIN-KEYWORD,download,📥 下载专用
   - DOMAIN-KEYWORD,dl.,📥 下载专用
   - DOMAIN-KEYWORD,release,📥 下载专用
