@@ -57,10 +57,6 @@ payload:
   - DOMAIN-SUFFIX,blizzard.com,📥 下载专用
   - DOMAIN-SUFFIX,blizzard.net,📥 下载专用
 
-  # EA / Origin / Apex 下载
-  - DOMAIN-SUFFIX,ea.com,📥 下载专用
-  - DOMAIN-SUFFIX,origin.com,📥 下载专用
-  - DOMAIN-SUFFIX,akamaihd.net,📥 下载专用   # EA 常用 CDN
 
   # Ubisoft 下载
   - DOMAIN-SUFFIX,ubisoft.com,📥 下载专用
