@@ -24,13 +24,6 @@ payload:
   - DOMAIN-SUFFIX,mirrors.aliyun.com,📥 下载专用
   - DOMAIN-SUFFIX,mirrors.tuna.tsinghua.edu.cn,📥 下载专用
 
-  # BT/Tracker
-  - GEOSITE,category-public-tracker,📥 下载专用
-
-  # 本机下载工具
-  - PROCESS-NAME,curl,📥 下载专用
-  - PROCESS-NAME,wget,📥 下载专用
-
   # ==================== 新增：中国无服务器游戏下载规则 ====================
 
   # Steam 下载与更新（国际服内容下载）
@@ -40,8 +33,3 @@ payload:
   - DOMAIN-SUFFIX,steamserver.net,📥 下载专用
   - DOMAIN-SUFFIX,cm.steampowered.com,📥 下载专用
   - DOMAIN-KEYWORD,steamcdn,📥 下载专用
-  # 其他常见游戏下载 CDN / 更新
-  - DOMAIN-KEYWORD,dl.,📥 下载专用
-  - DOMAIN-KEYWORD,download,📥 下载专用
-  - DOMAIN-KEYWORD,update,📥 下载专用
-  - DOMAIN-KEYWORD,cdn,📥 下载专用
