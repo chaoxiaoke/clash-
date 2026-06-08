@@ -25,8 +25,7 @@ payload:
   - DOMAIN-SUFFIX,archive.org,📥 下载专用
   - DOMAIN-SUFFIX,mirrors.aliyun.com,📥 下载专用
   - DOMAIN-SUFFIX,mirrors.tuna.tsinghua.edu.cn,📥 下载专用
-
-
+  - DOMAIN-SUFFIX,playwright.dev,📥 下载专用
   # ==================== 新增：中国无服务器游戏下载规则 ====================
 
   # Steam 下载与更新（国际服内容下载）
