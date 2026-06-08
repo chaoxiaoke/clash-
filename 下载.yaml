@@ -10,6 +10,7 @@ payload:
   - DOMAIN-KEYWORD,pkg,📥 下载专用
   - DOMAIN-KEYWORD,pan,📥 下载专用
   - DOMAIN-KEYWORD,torrent,📥 下载专用
+  - DOMAIN-KEYWORD,cdn,📥 下载专用
   - DOMAIN-KEYWORD,update,📥 下载专用
 
 
@@ -17,6 +18,7 @@ payload:
   # - DOMAIN-SUFFIX,github.com,📥 下载专用
   # - DOMAIN-SUFFIX,githubusercontent.com,📥 下载专用
   - DOMAIN-SUFFIX,gitlab.com,📥 下载专用
+  - DOMAIN-SUFFIX,googleapis.com,📥 下载专用
   - DOMAIN-SUFFIX,sourceforge.net,📥 下载专用
   - DOMAIN-SUFFIX,bitbucket.org,📥 下载专用
   - DOMAIN-SUFFIX,launchpad.net,📥 下载专用
