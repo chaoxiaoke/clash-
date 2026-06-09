@@ -28,10 +28,3 @@ payload:
   - DOMAIN-SUFFIX,playwright.dev,📥 下载专用
   # ==================== 新增：中国无服务器游戏下载规则 ====================
 
-  # Steam 下载与更新（国际服内容下载）
-  - DOMAIN-SUFFIX,steampowered.com,📥 下载专用
-  - DOMAIN-SUFFIX,steamcdn.com,📥 下载专用
-  - DOMAIN-SUFFIX,steamcontent.com,📥 下载专用
-  - DOMAIN-SUFFIX,steamserver.net,📥 下载专用
-  - DOMAIN-SUFFIX,cm.steampowered.com,📥 下载专用
-  - DOMAIN-KEYWORD,steamcdn,📥 下载专用
