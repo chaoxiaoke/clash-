@@ -1,29 +1,4 @@
 payload:
   # ==================== 原有规则保留 ====================
   - DOMAIN-KEYWORD,download,📥 下载专用
-  - DOMAIN-KEYWORD,dl.,📥 下载专用
-  - DOMAIN-KEYWORD,release,📥 下载专用
-  - DOMAIN-KEYWORD,file,📥 下载专用
-  - DOMAIN-KEYWORD,files,📥 下载专用
-  - DOMAIN-KEYWORD,archive,📥 下载专用
-  - DOMAIN-KEYWORD,raw,📥 下载专用
-  - DOMAIN-KEYWORD,pkg,📥 下载专用
-  - DOMAIN-KEYWORD,pan,📥 下载专用
-  - DOMAIN-KEYWORD,torrent,📥 下载专用
-  - DOMAIN-KEYWORD,update,📥 下载专用
-
-
-  # 主流下载/开源站点
-  # - DOMAIN-SUFFIX,github.com,📥 下载专用
-  # - DOMAIN-SUFFIX,githubusercontent.com,📥 下载专用
-  - DOMAIN-SUFFIX,gitlab.com,📥 下载专用
-  - DOMAIN-SUFFIX,googleapis.com,📥 下载专用
-  - DOMAIN-SUFFIX,sourceforge.net,📥 下载专用
-  - DOMAIN-SUFFIX,bitbucket.org,📥 下载专用
-  - DOMAIN-SUFFIX,launchpad.net,📥 下载专用
-  - DOMAIN-SUFFIX,archive.org,📥 下载专用
-  - DOMAIN-SUFFIX,mirrors.aliyun.com,📥 下载专用
-  - DOMAIN-SUFFIX,mirrors.tuna.tsinghua.edu.cn,📥 下载专用
-  - DOMAIN-SUFFIX,playwright.dev,📥 下载专用
-  # ==================== 新增：中国无服务器游戏下载规则 ====================
-
+  
