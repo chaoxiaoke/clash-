@@ -20,6 +20,8 @@ payload:
   - DOMAIN-SUFFIX,googlevideo.com,📥 下载专用  #youtube视频下载
 
   - DOMAIN-SUFFIX,github.com,📥 下载专用  #youtube视频下载
+  - DOMAIN-SUFFIX,huggingface.co,📥 下载专用  #youtube视频下载
+
 
   - DOMAIN-SUFFIX,gitlab.com,📥 下载专用
   - DOMAIN-SUFFIX,googleapis.com,📥 下载专用
