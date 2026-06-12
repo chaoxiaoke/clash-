@@ -15,6 +15,7 @@ payload:
   # 主流下载/开源站点
   # - DOMAIN-SUFFIX,github.com,📥 下载专用
   # - DOMAIN-SUFFIX,githubusercontent.com,📥 下载专用
+  - DOMAIN-SUFFIX,googlevideo.com,📥 下载专用
   - DOMAIN-SUFFIX,gitlab.com,📥 下载专用
   - DOMAIN-SUFFIX,googleapis.com,📥 下载专用
   - DOMAIN-SUFFIX,sourceforge.net,📥 下载专用
