@@ -11,6 +11,9 @@ payload:
   - DOMAIN-KEYWORD,pan,📥 下载专用
   - DOMAIN-KEYWORD,torrent,📥 下载专用
   - DOMAIN-KEYWORD,update,📥 下载专用
+  - DOMAIN-KEYWORD,cas,📥 下载专用
+  - DOMAIN-KEYWORD,cache,📥 下载专用
+
 
   # 主流下载/开源站点
   # - DOMAIN-SUFFIX,github.com,📥 下载专用
