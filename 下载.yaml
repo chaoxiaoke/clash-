@@ -13,6 +13,8 @@ payload:
   - DOMAIN-KEYWORD,update,📥 下载专用
   - DOMAIN-KEYWORD,cas,📥 下载专用
   - DOMAIN-KEYWORD,cache,📥 下载专用
+  - DOMAIN-KEYWORD,huggingface,📥 下载专用
+
 
 
   # 主流下载/开源站点
@@ -26,7 +28,6 @@ payload:
   - DOMAIN-SUFFIX,huggingface.co,📥 下载专用  #youtube视频下载
   - DOMAIN-SUFFIX,hf.co,📥 下载专用  #youtube视频下载
   - DOMAIN-SUFFIX,xethub.hf.co,📥 下载专用  #youtube视频下载
-
 
 
   - DOMAIN-SUFFIX,gitlab.com,📥 下载专用
