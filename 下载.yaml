@@ -41,3 +41,5 @@ payload:
   - DOMAIN-SUFFIX,playwright.dev,📥 下载专用
   # ==================== 新增：中国无服务器游戏下载规则 ====================
 
+#steam平台下载
+  - DOMAIN-KEYWORD,cache,DIRECT
