@@ -2,6 +2,8 @@ payload:
   # ==================== 原有规则保留 ====================
   - DOMAIN-KEYWORD,download,📥 下载专用
   - DOMAIN-KEYWORD,dl.,📥 下载专用
+  - DOMAIN-KEYWORD,cdn,📥 下载专用
+
   - DOMAIN-KEYWORD,release,📥 下载专用
   - DOMAIN-KEYWORD,file,📥 下载专用
   - DOMAIN-KEYWORD,files,📥 下载专用
