@@ -1,0 +1,30 @@
+{
+  "last": "1",
+  "records": {
+    "测试": {
+      "name": "测试",
+      "source_file": "D:/data/绿色/U96P-B使用说明以及手机蓝牙APP软件等各种资料/电脑版电能表测试程序/Umeter.txt",
+      "csv_file": "D:\\OneDrive - MSFT\\Documents\\python\\clash\\yaml\\电力表历史记录\\测试.csv"
+    },
+    "测试2": {
+      "name": "测试2",
+      "source_file": "D:/data/绿色/U96P-B使用说明以及手机蓝牙APP软件等各种资料/电脑版电能表测试程序/Umeter.txt",
+      "csv_file": "D:\\OneDrive - MSFT\\Documents\\python\\clash\\yaml\\电力表历史记录\\测试2.csv"
+    },
+    "测试数据3": {
+      "name": "测试数据3",
+      "source_file": "D:/data/绿色/U96P-B使用说明以及手机蓝牙APP软件等各种资料/电脑版电能表测试程序/Umeter.txt",
+      "csv_file": "D:\\OneDrive - MSFT\\Documents\\python\\clash\\yaml\\电力表历史记录\\测试数据3.csv"
+    },
+    "4": {
+      "name": "4",
+      "source_file": "D:/data/绿色/U96P-B使用说明以及手机蓝牙APP软件等各种资料/电脑版电能表测试程序/Umeter.txt",
+      "csv_file": "D:\\OneDrive - MSFT\\Documents\\python\\clash\\yaml\\电力表历史记录\\4.csv"
+    },
+    "1": {
+      "name": "1",
+      "source_file": "D:/data/绿色/U96P-B使用说明以及手机蓝牙APP软件等各种资料/电脑版电能表测试程序/Umeter.txt",
+      "csv_file": "D:\\OneDrive - MSFT\\Documents\\python\\clash\\yaml\\电力表历史记录\\1.csv"
+    }
+  }
+}
