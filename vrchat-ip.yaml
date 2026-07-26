@@ -1,25 +1,19 @@
 payload:
-
-  # ========== VRChat相关公网IP 走代理组 🎮 vrchat ==========
-  - IP-CIDR,104.18.27.36/32,🎮 vrchat,no-resolve
-  - IP-CIDR,104.18.124.108/32,🎮 vrchat,no-resolve
-  - IP-CIDR,172.64.150.231/32,🎮 vrchat,no-resolve
-  - IP-CIDR,44.231.111.157/32,🎮 vrchat,no-resolve
-  - IP-CIDR,101.32.113.127/32,🎮 vrchat,no-resolve
-  - IP-CIDR,104.18.26.36/32,🎮 vrchat,no-resolve
-  - IP-CIDR,54.192.35.44/32,🎮 vrchat,no-resolve
-  - IP-CIDR,119.28.183.184/32,🎮 vrchat,no-resolve
-  - IP-CIDR,216.120.180.24/32,🎮 vrchat,no-resolve
-  - IP-CIDR,5.8.93.16/32,🎮 vrchat,no-resolve
-  - IP-CIDR,37.9.33.138/32,🎮 vrchat,no-resolve
-  - IP-CIDR,85.234.65.254/32,🎮 vrchat,no-resolve
-  - IP-CIDR,87.120.204.208/32,🎮 vrchat,no-resolve
-  - IP-CIDR,82.117.224.169/32,🎮 vrchat,no-resolve
-  - IP-CIDR,100.60.124.67/32,🎮 vrchat,no-resolve
-  - IP-CIDR,52.88.221.39/32,🎮 vrchat,no-resolve
-  - IP-CIDR,104.18.125.108/32,🎮 vrchat,no-resolve
-  - IP-CIDR,100.52.66.52/32,🎮 vrchat,no-resolve
-
-  # ========== 之前nmbd防乱代理规则（保留放在最顶部更佳） ==========
-  # - SRC-PORT,137/138,DIRECT,udp
-  # - PROCESS-NAME,nmbd,DIRECT
+  - 104.18.27.36/32
+  - 104.18.124.108/32
+  - 172.64.150.231/32
+  - 44.231.111.157/32
+  - 101.32.113.127/32
+  - 104.18.26.36/32
+  - 54.192.35.44/32
+  - 119.28.183.184/32
+  - 216.120.180.24/32
+  - 5.8.93.16/32
+  - 37.9.33.138/32
+  - 85.234.65.254/32
+  - 87.120.204.208/32
+  - 82.117.224.169/32
+  - 100.60.124.67/32
+  - 52.88.221.39/32
+  - 104.18.125.108/32
+  - 100.52.66.52/32
