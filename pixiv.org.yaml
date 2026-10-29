@@ -1,0 +1,10 @@
+payload:
+
+  - DOMAIN-SUFFIX,pixiv.net,🎨 Pixiv
+  # Pixiv 图片/动图/视频资源域名
+  - DOMAIN-SUFFIX,pixiv.re,🎨 Pixiv
+  - DOMAIN-SUFFIX,pixiv.cat,🎨 Pixiv
+  # Pixiv API 及数据服务域名
+  - DOMAIN-SUFFIX,pximg.net,🎨 Pixiv
+  # Pixiv 账号及支付相关域名
+  - DOMAIN-SUFFIX,pixiv.org,🎨 Pixiv
