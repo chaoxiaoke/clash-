@@ -1,0 +1,11 @@
+payload:
+
+  #    Discord
+  - DOMAIN-SUFFIX,discord.com,💬 Discord
+  - DOMAIN-SUFFIX,discord.gg,💬 Discord
+  # Discord CDN/资源域名
+  - DOMAIN-SUFFIX,cdn.discordapp.com,💬 Discord
+  - DOMAIN-SUFFIX,media.discordapp.net,💬 Discord
+  - DOMAIN-SUFFIX,discord.media,💬 Discord
+  # Discord 网关/API 域名
+  - DOMAIN-SUFFIX,discordapp.com,💬 Discord
